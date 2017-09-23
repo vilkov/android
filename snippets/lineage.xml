@@ -13,15 +13,14 @@
   <!--<project path="external/koush/ion" name="LineageOS/ion" />-->
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />
-  <!--<project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
-  <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
+  <!--<project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
   <project path="external/lzo" name="LineageOS/android_external_lzo" />-->
   <project path="external/nano" name="LineageOS/android_external_nano" />
-  <!--<project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
-  <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
+  <!--<project path="external/p7zip" name="LineageOS/android_external_p7zip" />-->
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
-  <project path="external/rsync" name="LineageOS/android_external_rsync" />
+  <!--<project path="external/rsync" name="LineageOS/android_external_rsync" />
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
   <project path="external/uicommon" name="LineageOS/android_external_cyanogen_UICommon" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
@@ -30,8 +29,11 @@
   <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" />
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" />
-  <project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" />
-  <project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />
+  <project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" />-->
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" >
+    <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
+  </project>
+  <!--<project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />
   <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
@@ -59,8 +61,8 @@
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" /> -->
 
-  <!-- CodeAurora additions
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />-->
+  <!-- CodeAurora additions -->
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />
